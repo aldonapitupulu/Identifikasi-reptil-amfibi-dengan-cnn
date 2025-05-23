@@ -5,7 +5,6 @@ Proyek ini merupakan bagian dari skripsi yang bertujuan untuk mengklasifikasikan
 ## 📂 Struktur Repositori
 
 ```
-├── dataset/               ← Contoh data & petunjuk unduh dataset
 ├── klasifikasi_cnn.ipynb ← Notebook utama
 ├── requirements.txt       ← Daftar library
 └── README.md              ← Dokumentasi ini
