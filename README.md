@@ -15,8 +15,8 @@ Proyek ini merupakan bagian dari skripsi yang bertujuan untuk mengklasifikasikan
 ## 📌 Tahapan Penelitian
 
 1. **Pengumpulan Data:**
-   - Dataset terdiri dari 9 kelas:
-     - **Reptil:** iguana, buaya, tokek, kadal, ular, kura-kura
+   - Dataset terdiri dari  kelas:
+     - **Reptil:** bunglon, iguana, buaya, tokek, kadal, ular, kura-kura
      - **Amfibi:** kodok, katak, salamander
 
 2. **Pembagian Dataset:**
@@ -26,7 +26,7 @@ Proyek ini merupakan bagian dari skripsi yang bertujuan untuk mengklasifikasikan
 3. **Preprocessing:**
    - Resize gambar
    - Normalisasi pixel
-   - Augmentasi **hanya untuk amfibi** (rotasi & scaling)
+   - Augmentasi **hanya untuk amfibi** (flip, rotasi, & scaling)
 
 4. **Model CNN:**
    - Dibuat dengan TensorFlow/Keras.
@@ -35,29 +35,18 @@ Proyek ini merupakan bagian dari skripsi yang bertujuan untuk mengklasifikasikan
 5. **Evaluasi:**
    - Confusion Matrix
    - Akurasi & loss
-   - Grafik performa
+   
 
 ## 🚀 Cara Menjalankan Program
 
-### 1. Clone Repositori
-```bash
-git clone https://github.com/username/klasifikasi-reptil-amfibi-cnn.git
-cd klasifikasi-reptil-amfibi-cnn
-```
-
-### 2. Install Library
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Jalankan Notebook
-Buka `klasifikasi_cnn.ipynb` di Jupyter Notebook atau Google Colab.
+### 1. Jalankan Notebook
+download dan jalankan `TA.ipynb` di Google Colab.
 
 ## 📁 Dataset
 
 Dataset lengkap tersedia di Google Drive:
 
-[Link Google Drive Dataset](https://drive.google.com/your-link)
+[Link Google Drive Dataset](https://drive.google.com/drive/folders/1nWvslXXB3hvEI2qZeDzq-tB6Xal15J-q?usp=drive_link)
 
 Struktur folder:
 ```
