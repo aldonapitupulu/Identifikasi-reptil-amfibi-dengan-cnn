@@ -8,7 +8,6 @@ Proyek ini merupakan bagian dari skripsi yang bertujuan untuk mengklasifikasikan
 ├── dataset/               ← Contoh data & petunjuk unduh dataset
 ├── klasifikasi_cnn.ipynb ← Notebook utama
 ├── requirements.txt       ← Daftar library
-├── .gitignore
 └── README.md              ← Dokumentasi ini
 ```
 
@@ -47,6 +46,7 @@ download dan jalankan `TA.ipynb` di Google Colab.
 Dataset lengkap tersedia di Google Drive:
 
 [Link Google Drive Dataset](https://drive.google.com/drive/folders/1nWvslXXB3hvEI2qZeDzq-tB6Xal15J-q?usp=drive_link)
+[Link Google Drive Dataset](https://drive.google.com/drive/folders/1jbI_CygNIB5ppGxt3Guiku52L5kudFJI?usp=sharing)
 
 Struktur folder:
 ```
