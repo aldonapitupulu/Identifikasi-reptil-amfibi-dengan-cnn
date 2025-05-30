@@ -6,14 +6,13 @@ Proyek ini merupakan bagian dari skripsi yang bertujuan untuk mengklasifikasikan
 
 ```
 ├── klasifikasi_cnn.ipynb ← Notebook utama
-├── requirements.txt       ← Daftar library
 └── README.md              ← Dokumentasi ini
 ```
 
 ## 📌 Tahapan Penelitian
 
 1. **Pengumpulan Data:**
-   - Dataset terdiri dari  kelas:
+   - Dataset terdiri dari 10 kelas:
      - **Reptil:** bunglon, iguana, buaya, tokek, kadal, ular, kura-kura
      - **Amfibi:** kodok, katak, salamander
 
@@ -22,7 +21,7 @@ Proyek ini merupakan bagian dari skripsi yang bertujuan untuk mengklasifikasikan
    - Tiap set memiliki 2 kategori: `reptil` dan `amfibi`.
 
 3. **Preprocessing:**
-   - Resize gambar
+   - Resize gambar 224x224
    - Normalisasi pixel
    - Augmentasi **hanya untuk amfibi** (flip, rotasi, & scaling)
 
@@ -31,8 +30,8 @@ Proyek ini merupakan bagian dari skripsi yang bertujuan untuk mengklasifikasikan
    - Arsitektur: beberapa Conv2D + MaxPooling + Flatten + Dense.
 
 5. **Evaluasi:**
-   - Confusion Matrix
    - Akurasi & loss
+   - Confusion Matrix
    
 
 ## 🚀 Cara Menjalankan Program
