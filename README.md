@@ -17,7 +17,7 @@ Proyek ini merupakan bagian dari skripsi yang bertujuan untuk mengklasifikasikan
      - **Amfibi:** kodok, katak, salamander
 
 2. **Pembagian Dataset:**
-   - Data dibagi menjadi `train`, `val`, dan `test`.
+   - Data dibagi menjadi `train` sebanyak 4228, `val` sebanyak 1205, dan `test` sebanyak 612.
    - Tiap set memiliki 2 kategori: `reptil` dan `amfibi`.
 
 3. **Preprocessing:**
